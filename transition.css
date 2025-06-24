@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+h1{
+    font-style: oblique;font-display: uppercase;color: aliceblue;
+    border: 4px double gray;background-color: cadetblue;
+    text-align: center;text-decoration: wavy;text-transform: uppercase;
+}
+div{
+    height: 300px;width: 300px;border-radius: 50%;background-color: white;
+    position: relative;top: 250px;left: 650px; color: black;
+}
+div:hover{
+    animation: rainbow 1s 1ms 5 normal linear;
+}
+@keyframes rainbow {
+    0%{background-color: white;}
+    12%{background-color: violet;}
+    24%{background-color: indigo;}
+     36%{background-color: blue;}
+    48%{background-color: green;}
+    60%{background-color: yellow;}
+     72%{background-color: orange;}
+    86%{background-color: red;}
+    100%{background-color: white;}
+    
+}
+h2{
+    text-align: justify;color: beige;text-decoration: double;font-style: italic;
+}
