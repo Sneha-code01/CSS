@@ -1,0 +1,26 @@
+body{
+    background-color: blanchedalmond;
+
+}
+div{
+    height: 250px;width: 250px;background-color: blue; color: bisque;
+    border: 10px solid brown; font-size: x-large; position: fixed; top: 100px;
+    right: 200px;
+}
+@media (min-width:900px) { div{
+    background-color: aqua;border: 5px double black;
+     color: rgb(11, 27, 41);
+}
+    
+}
+@media (min-width:701px)and(max-width:899px) { div{
+    background-color: cornflowerblue;border: 7px solid rgb(150, 98, 29);
+    color: azure;
+}
+    
+}
+@media (min-width:501px)and(max-width:700px) {div{
+    background-color: darkslategray; border: 3px dashed white; color: rgb(169, 223, 205);
+}
+    
+}
