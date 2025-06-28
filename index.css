@@ -1,0 +1,103 @@
+   body{
+    background-color: rgba(219, 167, 195, 0.7);
+   }
+   
+   #intro{
+        background-color: rgba(238, 59, 154, 0.6); height: 100px; 
+    }
+        .line{
+        text-transform: uppercase; text-decoration: none; 
+        color: black;
+
+    }
+    #intro{
+               display: flex; justify-content: space-between; flex-direction:row;
+    }
+    #intro2{
+               display: flex; justify-content: space-between; flex-direction:row;
+               border: inset 10px rgba(185, 3, 100,0.8);
+    }
+ 
+    #search{
+ 
+        width: 250px; height: 40px; text-align: center;
+        text-transform: none;margin-left:3px;font-weight: 500;
+    }
+    .category{
+        text-decoration: none; font-family: sans-serif;
+        font-size: 20px; color: rgb(185, 3, 100);margin-left: 150px;
+    }
+    #all{
+        margin-left: 10px;text-decoration: underline;
+    }
+    #image{ height:220px;background-color: rgba(225, 173, 201, 0.7);
+           color:rgb(255, 106, 0);
+    }
+    i{
+        font-size: large;
+    }
+    #sponsor{
+        text-align: center;color: rgb(222, 43, 168); font-family: 'Lucida Sans Unicode', 'Lucida Grande';
+    }
+    #logo{
+        height: 100px; width:130px;border: solid 5px rgb(222, 43, 168);
+        position: sticky;margin-left: 50%;
+    }
+    #category{
+        display: flex; flex-direction: row; justify-content: space-between;
+    }
+    #fashion{
+        height:155px ;border: solid 2px black; 
+    }
+     #footwear{
+        height:155px ;border: solid 2px black; width: 150px;
+    }
+     #accessories{
+        height:155px ;border: solid 2px black; width:160px
+    }
+     #decor{
+        height:155px ;border: solid 2px black; 
+    }
+     #beauty{
+        height:155px ;border: solid 2px rgb(1, 1, 1); 
+    }
+    #categoryname{
+        display: flex; flex-direction: row; justify-content: space-between;
+        
+    }
+    .categoryName{ text-transform: none; text-decoration: none;color: black;
+
+
+    }
+
+    #foryou{
+        border: outset 10px rgb(248, 41, 75);font-family: 'Lucida Sans';
+        text-transform: none;background-color: crimson;color: bisque;
+        transition-duration: 2ms;transition-property:border,color;transition-delay: 1ms;
+        transition-timing-function: ease-in;
+    }
+    #foryou:hover{
+          color: ghostwhite;border: ridge 13px ghostwhite ;
+    }
+    #myintrest{
+        height: 220px;color:rgb(141, 15, 57);
+    }
+    #myintrest:hover{
+        animation-name:intrest;
+        animation-timing-function: linear;animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes intrest {
+        0%{background-image: url(lipgloss.jpg);font-size: 0%;}
+        20%{background-image:url(lehenga.jpg) ;font-size: 0%;}
+        60%{background-image: url(frock.jpg);font-size: 0%;}
+        80%{background-image: url(accessories.jpg);font-size: 0%;}
+        100%{background-image: url(footwear.jpg);}
+    }
+    #mostsearch{
+        height: 200px;width: 200px; display: flex; flex-direction: column; justify-content: space-between;
+    }
+    h3{
+        border: inset 10px rgb(255, 0, 132);
+        color: rgb(249, 10, 193);background-color: beige;
+    }
